@@ -2,16 +2,12 @@
 
 This program is an implementation of the slightly more complex version of the traditional game of Rock Paper Scissors. The additional choices of Lizard and Spock add a fun twist and require a bit more strategy than the classic game.
 
-## Compilation and Execution
+## Rules
 
-To compile the program, ensure you have a C++ compiler like g++. Then run:
-```
-    g++ -o RPSLS RPSLS.cpp
-```
-To execute the program, simply run:
-```
-    ./RPSLS
-```
+For a detailed explanation of the rules, watch this instructional video:
+
+[![Watch the video](https://img.youtube.com/vi/iSHPVCBsnLw/0.jpg)](https://www.youtube.com/watch?v=iSHPVCBsnLw "Rock Paper Scissors Lizard Spock - The Rules")
+
 ## How to Play
 
 When prompted, enter a number corresponding to your chosen move:
@@ -24,10 +20,19 @@ When prompted, enter a number corresponding to your chosen move:
 
 The computer will randomly select its move, and the winner will be decided based on the classic rules, which are extended for Lizard and Spock.
 
-## Rules
+## Compilation and Execution
 
-For a detailed explanation of the rules, watch this instructional video:
+To compile the program, ensure you have a C++ compiler like g++. Then run:
+```
+    g++ -o RPSLS RPSLS.cpp
+```
+To execute the program, simply run:
+```
+    ./RPSLS
+```
 
-[![Watch the video](https://img.youtube.com/vi/iSHPVCBsnLw/0.jpg)](https://www.youtube.com/watch?v=iSHPVCBsnLw "Rock Paper Scissors Lizard Spock - The Rules")
+## Acknowledgements
+This is my implementation of a Codecademy project with the same name in the Learn C++ course
+This project was inspired by a Big Bang Theory television series episode
 
 Enjoy the game!
